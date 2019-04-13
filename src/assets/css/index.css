@@ -1,0 +1,112 @@
+@font-face {
+  src: url("../fonts/AvenirNext-DemiBold.ttf");
+  font-family: AvenirNext-Bold;
+}
+
+@font-face {
+  src: url("../fonts/AvenirNext-Regular.ttf");
+  font-family: AvenirNext-Regular;
+}
+
+body {
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+  width: 0 !important
+}
+
+body {
+  margin: 0;
+}
+
+.fontBold {
+  font-family: AvenirNext-Bold;
+}
+
+.fontRegular {
+  font-family: AvenirNext-Regular;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #47e895;
+  position: relative;
+}
+
+.header_title {
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+}
+
+.pull-right {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding-right: 20px;
+}
+
+.list_items {
+  height: 180px;
+  /* background-image: url('/assets/images/burger_img.jpg'); */
+  background-repeat: no-repeat;
+  background-position: 61% 46%;
+  background-size: cover;
+  -moz-box-shadow: inset 0 -40px 80px -5px #000;
+  -webkit-box-shadow: inset 0 -40px 80px -5px #000;
+  box-shadow: inset 0 -40px 80px -5px #000;
+  position: relative;
+}
+
+.list_itemBlock {
+  position: absolute;
+  bottom: 0;
+  padding-left: 12px;
+  margin-bottom: 0;
+}
+
+.item_title {
+  color: #fff;
+  font-size: 16px;
+}
+
+.item_category {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer {
+  background-color: #2b2b2b;
+  position: fixed;
+  bottom: 0;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+.footer_tab {}
+
+.footer_tab_item {
+  width: 50%;
+  float: left;
+}
+
+.footer_tab_item img {
+  margin-top: 15px;
+  height: 36px;
+}
+
+.footer_tab_item p {
+  color: #fff;
+  font-size: 10px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.footer_tab_item_internets {
+  color: #979797 !important;
+}
